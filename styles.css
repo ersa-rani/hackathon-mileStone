@@ -1,0 +1,367 @@
+.main-div {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  border: 2px solid #8e793e;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10%;
+}
+.div1 {
+  background-color: #231f20;
+  width: 600px;
+  border-radius: 50%;
+}
+.pic {
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 50%;
+  border: 3px solid #8e793e;
+  margin-left: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: "200px";
+  height: "200px";
+}
+.pic:hover {
+  border-radius: 20%;
+  transition-duration: 1s;
+}
+h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+h3:before {
+  content: "";
+  position: absolute;
+  left: 150px;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  border-radius: 100px;
+  transition: width 0.3s ease;
+  /* bottom: 4px; */
+}
+h3:hover:before {
+  width: 360px;
+}
+.gmail{
+  color: white;
+}
+.style-link{
+  color: white;
+}
+.div-1-para {
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+}
+ul {
+  color: white;
+  font-size: 20px;
+  margin-left: 130px;
+  color: #8e793e;
+}
+
+.div2 {
+  /* background-color:#8e793e; */
+  width: 1000px;
+  padding-top: 20px;
+}
+.ersa-rani {
+  font-size: 70px;
+  color: #8e793e;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+.logo {
+  height: 100px;
+  width: 140px;
+  margin-left: -540px;
+  bottom: -1000px;
+}
+.developer {
+  border: 2px solid #8e793e;
+  margin-left: 30px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20%;
+}
+
+.developer:hover {
+  background-color: #8e793e;
+  color: aliceblue;
+  transition-duration: 1s;
+}
+.form-button {
+  margin-top: 10px;
+  margin-left: 495px;
+  border: 2px solid #8e793e;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20%;
+}
+.form-button:hover {
+  background-color: #8e793e;
+  color: aliceblue;
+  transition-duration: 1s;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  left: 650px;
+  width: 0;
+  height: 1px;
+  background-color: #8e793e;
+  border-radius: 100px;
+  transition: width 0.3s ease;
+}
+h2:hover:before {
+  width: 400px;
+}
+
+.div-2-para {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #8e793e;
+}
+.expo {
+  margin-left: 100px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #8e793e;
+}
+
+.button {
+  margin-left: 500px;
+  border: 2px solid#8e793e;
+  background-color: #8e793e;
+  color: white;
+  border-radius: 20%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.button:hover {
+  background-color: white;
+  color: #8e793e;
+  transition-duration: 1s;
+}
+#footer {
+  margin-bottom: 100px;
+}
+.fa-square-instagram {
+  font-size: 50px;
+  margin-left: 200px;
+  color: #c2224a;
+}
+.fa-linkedin {
+  font-size: 50px;
+  margin-left: 80px;
+  color: blue;
+}
+.fa-github {
+  font-size: 50px;
+  margin-left: 80px;
+}
+
+
+.f-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border {
+  background-color: white;
+  border: 2px solid #8e793e;
+  font-size: 30px;
+  margin: -40%;
+  padding-left: 30%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-top: 30px;
+  border-radius: 30%;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  margin-left: 110px;
+  color: #8e793e;
+}
+h1:hover {
+  color: black;
+}
+
+.submit {
+  margin-top: 5px;
+  margin-left: 150px;
+  border: 2px solid #8e793e;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20%;
+  margin-bottom: 40px;
+}
+.submit:hover {
+  background-color: #8e793e;
+  color: #8e793e;
+  transition-duration: 1s;
+}
+
+input,textarea {
+  
+  padding: 8px;
+  border: 1px solid #8e793e;
+  border-radius: 4px;
+}
+h5 {
+  font-size: 60px;
+  padding-bottom: 10px;
+  margin-left: 80px;
+  color: #8e793e;
+  margin-top: 10px;
+ margin-bottom: 20px;
+ margin-left: -8%;
+}
+h5:hover {
+  color: black;
+ 
+}
+
+#resume-display {
+ 
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #8e793e;
+  font-size: 30px;
+  margin: 25%;
+  padding-left: 12%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-top: 30px;
+  border-radius: 30%;
+  padding-bottom: 80px;
+  /*making the resume editable*/
+  outline: none;
+}
+
+@media (max-width: 320px) {
+  .main-div {
+    flex-direction: column;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px; /* Adjusting the radius for small screens */
+  }
+
+  .div1, .div2 {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .pic {
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+
+  }
+
+  .ersa-rani {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: -20px;
+    margin-top: 10%;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .div-1-para, .div-2-para, .expo {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  .button, .submit {
+    margin-left: 30px;
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .form-button{
+    margin-left: 30px;
+    width: 70%;
+    font-size: 16px;
+    display: flex;
+  }
+  .developer{
+   margin-left: 25%; 
+  
+  }
+  .form-button, .submit {
+    margin-top: 15px;
+    padding: 15px;
+  }
+  #footer{
+margin-left: 25%;
+margin-bottom:20px ;
+  }
+
+  .gmail, .style-link, ul {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .border, #resume-display {
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .f-div {
+    flex-direction: column;
+  }
+
+  .fa-square-instagram, .fa-linkedin, .fa-github {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+}
